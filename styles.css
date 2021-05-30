@@ -1,0 +1,34 @@
+.goods-list {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.goods-item {
+    border: 1px solid wheat;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    background: rgb(233, 233, 233);
+}
+
+.cart-button {
+    padding: 10px 0 10px 0;
+    margin: 10px 30px 10px 0;
+    border-radius: 20px;
+    width: 100px;
+
+}
